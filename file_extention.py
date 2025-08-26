@@ -14,6 +14,7 @@
 # Don't delete this line! 
 from turtle import *
 
+# Get user input for the shape and size
 drawing = input("What would you like me to draw? ")
 size = int(input("How big should I draw it? "))
 
@@ -32,3 +33,6 @@ elif drawing == "circle":
 
 else:
     print("Sorry, I don't know how to draw that...")
+
+# This line makes the program wait until the user types something on the keyboard
+input("Type any key to close the program.")
