@@ -13,7 +13,6 @@
 
 # Don't delete this line! 
 from turtle import *
-from turtle import *
 
 drawing = input("What would you like me to draw? ")
 size = int(input("How big should I draw it? "))
